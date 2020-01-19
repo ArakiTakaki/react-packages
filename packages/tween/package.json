@@ -1,0 +1,35 @@
+{
+  "name": "tween",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "ArakiTakaki <araki_takaki@yahoo.co.jp>",
+  "homepage": "https://github.com/ArakiTakaki/react-packages#readme",
+  "license": "MIT",
+  "main": "lib/tween.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArakiTakaki/react-packages.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ArakiTakaki/react-packages/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.7.5"
+  }
+}
