@@ -1,0 +1,17 @@
+{
+  "name": "react-packages",
+  "description": "react utility packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "lerna": "lerna",
+    "postinstall": "lerna bootstrap",
+    "test": "mocha packages/*/test/*.js",
+    "update-readme": "lerna-npm-readme-hack"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "license": "MIT"
+}
